@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #393e46;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.dice-form {
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #00adb5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #048c94;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
