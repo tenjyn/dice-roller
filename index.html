@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTRPG Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TTRPG Dice Roller 🎲</h1>
+        <div class="dice-form">
+            <input type="number" id="dice-count" min="1" value="1">
+            <select id="dice-type">
+                <option value="4">d4</option>
+                <option value="6" selected>d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="12">d12</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+            </select>
+            <button onclick="rollDice()">Roll Dice</button>
+        </div>
+        <div id="result">🎲 Ready to roll!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
